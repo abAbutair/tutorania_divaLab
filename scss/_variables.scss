@@ -1,0 +1,61 @@
+//colors
+$main-clr:#0569ab;
+$scd-clr:#0773bb;
+//$scd-clr:#035185;
+$txt-white:#fff;
+$txt-black:#000;
+$main-light:lighten($main-clr,15%);
+$active-pills:#0c8be0;
+$for-hitw:#00b0ff;
+$special-clr:#333;
+$article-clr:#707070;
+
+//font-sizes
+$small-font:12px;
+$input-font:13px;
+$artical-font2:14px;
+$artical-font:16px;
+$md-font:18px;
+$perfect-font:20px;
+$menu-font:22px;
+$two-forfont:24px;
+$title-font:26px;
+$anth-font:30px;
+$res-font:35px;
+$statics-font:36px;
+$hugh-font:40px;
+$extra-font:52px;
+$hitw-h:100px;
+
+
+$width:width;
+
+//------translate--------
+$isRtl:ltr;
+$left:left;
+$right:right;
+$direction:ltr;
+$flexDir:row;
+//$font-family-1:roboto-regular;
+//$font-family-2:roboto-light;
+
+
+@if $isRtl == rtl
+{
+  $left:right;
+  $right:left;
+  $direction:rtl;
+  $flexDir:row-reverse;
+  //$font-family-1:arabic-font;
+  //$font-family-2:arabic-font;
+  //$flib:rotateY(180deg)
+
+}
+@else{
+  $left:left;
+  $right:right;
+  $direction:ltr;
+  $flexDir:row;
+  //$font-family-1:roboto-regular;
+  //$font-family-2:roboto-light;
+}

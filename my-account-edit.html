@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/led.png">
+    <link rel="stylesheet" href="css/style-en.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+    <title>My Account</title>
+</head>
+<body>
+<header class="header-loged">
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-1 col-lg-0 navbar navbar-expand-lg navbar-dark nav-bar-display">
+                <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            <div class="col-lg-2 offset-lg-2 social">
+                <ul>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-sm-5 col-9 offset-1 offset-lg-0 sr-input">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-3 col-6 offset-sm-1 offset-2 account">
+                <div class="row justify-content-md-center justify-content-end">
+                    <div class="col-sm-2 col-3 not-alert">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle btn-special-2 btn-special-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="showArrow()">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </button>
+                            <div class="notification-icn">
+                                5
+                            </div>
+                            <div class="dropdown-menu account-not">
+                                <a class="dropdown-item account-nav-opt" href="#">
+                                    <img src="img/profile-pic.png" alt="">
+                                    <span>sama</span>
+                                    <p class="the-message"> : the message content</p>
+                                    <p class="timer">1 day ago</p>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt" href="#">
+                                    <img src="img/pills-img.jpg" alt="">
+                                    <span>ahmed</span>
+                                    <p class="the-message"> : the message content</p>
+                                    <p class="timer">1 day ago</p>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt view-all" href="#">view all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-3 offset-0 offset-sm-1 offset-md-0 not-alert">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle btn-special-2 btn-special-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="showArrow()">
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                            </button>
+                            <div class="notification-icn">
+                                5
+                            </div>
+                            <div class="dropdown-menu account-not">
+                                <a class="dropdown-item account-nav-opt" href="#">
+                                    <img src="img/profile-pic.png" alt="">
+                                    <span>sama</span> sent you a request
+                                    <p class="timer">1 day ago</p>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt" href="#">
+                                    <img src="img/pills-img.jpg" alt="">
+                                    <span>ahmed</span> accepted your request
+                                    <p class="timer">1 day ago</p>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt view-all" href="#">view all</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-5 offset-sm-1 account-nav">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger dropdown-toggle btn-special" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                sama
+                            </button>
+                            <div class="dropdown-menu account-set">
+                                <p class="dropdown-item profile-name">sama ahmed fathy</p>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt" href="#"><i class="fa fa-user" aria-hidden="true"></i>my account</a>
+                                <div class="dropdown-divider "></div>
+                                <a class="dropdown-item account-nav-opt" href="#"><i class="fa fa-cog" aria-hidden="true"></i>profile info</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item account-nav-opt" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>log out</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="acc-picture">
+                            <a href="#"><img src="img/profile-pic.png" alt="account picture"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="sec-content footer-sol">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <aside class="special-aside">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="#">browes tutors</a></li>
+                            <li><a href="#">testimonias</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="social social-res">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <button class="btn close-aside-btn" type="button" onclick="closeAside()"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </aside>
+            </div>
+            <aside class="res-aside">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about-us.html">about us</a></li>
+                        <li><a href="#">browes tutors</a></li>
+                        <li><a href="#">testimonias</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="internals-header clearfix">
+                <h1><span>My</span> Account</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">My Account</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="responsive-ads responsive-ads-internals d-none">
+                <div>
+                    <img src="img/adv.jpg" alt="ads">
+                </div>
+            </div>
+
+            <div class="internals-content">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="my-account-edit">
+                            <div class="my-account-edit-content">
+                                <div class="input_file">
+                                    <label for="file" class="file_label">
+                                        <img src="img/request-1.jpg" alt="profile picture">
+                                        <p>upload photo</p>
+                                    </label>
+                                    <input id="file" type="file" name="file">
+                                </div>
+                                <form class="editing">
+                                    <div class="form-group">
+                                        <div class="row special-mr-4">
+                                            <label for="firstName" class="col-sm-2 col-form-label labels-style">first name</label>
+                                            <div class="col-lg-4 col-sm-10">
+                                                <input type="text" class="form-control inputs-style" id="firstName">
+                                            </div>
+                                            <label for="lastName" class="col-sm-2 col-form-label labels-style">last name</label>
+                                            <div class="col-lg-4 col-sm-10">
+                                                <input type="text" class="form-control inputs-style" id="lastName">
+                                            </div>
+                                        </div>
+                                        <div class="row special-mr-4">
+                                            <label for="inputEmail3" class="col-sm-2 col-form-label labels-style">Email</label>
+                                            <div class="col-sm-10">
+                                                <input type="email" class="form-control inputs-style" id="inputEmail3">
+                                            </div>
+                                        </div>
+                                        <div class="row special-mr-4">
+                                            <label for="phone-num" class="col-sm-2 col-form-label labels-style">Phone</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control inputs-style" id="phone-num">
+                                            </div>
+                                        </div>
+                                        <div class="row special-mr-4">
+                                            <label class="col-sm-2 col-form-label labels-style">gender</label>
+                                            <div class="col-sm-10">
+                                                <select class="form-control reg-select">
+                                                    <option value="hide">gender</option>
+                                                    <option value="male">Male</option>
+                                                    <option value="female">Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row special-mr-4">
+                                            <label for="adress" class="col-sm-2 col-form-label labels-style special-mr label-special-res">Adress</label>
+                                            <div class="col-sm-10">
+                                                <input type="text" class="form-control inputs-style special-mr input-special-res" id="adress">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn save-sub">save</button>
+                                    <button type="submit" class="btn cancel-sub">cancel</button>
+                                    <a href="#" class="change-pass">change password</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 internals-ads">
+                        <div class="in-ads">
+                            <img src="img/adv.jpg" alt="ads">
+                        </div>
+                        <div class="in-ads">
+                            <img src="img/adv.jpg" alt="ads">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer-end">
+    <div>
+        <p>copyright © 2014 - <a href="http://www.diva-lab.com/">diva-lab</a> | all rights reserved</p>
+    </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<!-- (Optional) Latest compiled and minified JavaScript translation files
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/i18n/defaults-*.min.js"></script> -->
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
